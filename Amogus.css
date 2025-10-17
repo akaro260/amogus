@@ -9,23 +9,40 @@ body{
     padding: 40px;
 }
 .head{
-    margin: auto;
+    margin: auto; ;
+
 }
 .pala{
     display: flex;
-    max-width: 1200px;
+    width: 1200px;
     margin: auto;
     padding: 40px;
     justify-content: center;
     background-color: violet;
-    margin-top: 100px;
-    gap: 50px;
+    margin-top: 200px;
+    gap: 60px;
+    height: 500px;
+
+}
+.jawir:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+.jowo:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
 }
 .gambar{
+    margin: 100px 0px 0px 40px;
 }
 .nama{
-    margin: 40px;
+    margin: 100px 0px 0px 80px;
     align-items: center;
+
 }
 .nama h1 {
     font-size: 50px;
@@ -47,4 +64,36 @@ body{
 }
 .nama .op {
     color: #F1A204;
+}
+.link{
+    margin-top: 40px;
+}
+.jawir {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;        
+    color: white;
+    font-size: 20px;   
+    cursor: pointer;
+    font-weight: 600;
+    margin: auto;
+    margin-right: 20px;
+}
+.jowo{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;        
+    color: white;
+    font-size: 20px;   
+    cursor: pointer;
+    font-weight: 600;
+    margin: auto;
+}
+.jawir a{
+    text-decoration: none;
+    color: black;
+}
+.jowo a{
+    text-decoration: none;
+    color: black;
 }
